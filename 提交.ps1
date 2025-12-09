@@ -3,7 +3,7 @@
 # 获取计算机名和时间
 $computerName = $env:COMPUTERNAME
 $currentTime = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
-$COMMIT_MESSAGE = "自动提交 [$computerName] - $currentTime"
+$COMMIT_MESSAGE = "Automatic push [$computerName] - $currentTime"
 
 Write-Host "开始Git提交流程..."
 Write-Host "提交信息: $COMMIT_MESSAGE"
